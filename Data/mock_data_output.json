@@ -1,0 +1,2215 @@
+{
+  "generated_at": "2026-09-02T11:23:22.340985+00:00",
+  "time_range": {
+    "start": "2026-09-02T10:23:21.749882+00:00",
+    "end": "2026-09-02T11:23:21.749882+00:00"
+  },
+  "assets": {
+    "52ea2499-7d34-4cb3-8208-db91e36d2a82": {
+      "name": "Asset-52ea2499",
+      "properties": [
+        {
+          "property_id": "0472daf5-ce46-45cb-95c5-e174425be851",
+          "name": "S-BJCW1-KL1-B-NA-441FN1",
+          "tag_name": "441FN1",
+          "description": "Preheater Fan-1",
+          "unit": "State",
+          "variable_type": "Blaine",
+          "generator": "binary",
+          "min": 0.0,
+          "max": 1.0,
+          "sample_count": 60,
+          "first_value": 1.0,
+          "last_value": 1.0,
+          "sample_data": [
+            [
+              1788344601,
+              1.0
+            ],
+            [
+              1788344661,
+              1.0
+            ],
+            [
+              1788344721,
+              1.0
+            ],
+            [
+              1788344781,
+              1.0
+            ],
+            [
+              1788344841,
+              1.0
+            ]
+          ]
+        },
+        {
+          "property_id": "a9bd59db-8201-4b85-9825-7b172912f602",
+          "name": "S-BJCW1-KL1-F-PV-KILN_TOT_FEED_N",
+          "tag_name": "KILN_TOT_FEED_N",
+          "description": "Kiln Feed Actual",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 88.684,
+          "last_value": 208.975,
+          "sample_data": [
+            [
+              1788344601,
+              88.684
+            ],
+            [
+              1788344661,
+              88.027
+            ],
+            [
+              1788344721,
+              95.625
+            ],
+            [
+              1788344781,
+              96.357
+            ],
+            [
+              1788344841,
+              110.068
+            ]
+          ]
+        },
+        {
+          "property_id": "f764eeda-1491-4866-8ae2-d98d256d48e6",
+          "name": "S-BJCW1-PP5-TM-PV-645PM1_RUN_TOD",
+          "tag_name": "645PM1_RUN_TOD",
+          "description": "Packer-5 Running Hours",
+          "unit": "hr",
+          "variable_type": "Time",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 3600.0,
+          "sample_count": 60,
+          "first_value": 2540.498,
+          "last_value": 1286.034,
+          "sample_data": [
+            [
+              1788344601,
+              2540.498
+            ],
+            [
+              1788344661,
+              2478.527
+            ],
+            [
+              1788344721,
+              2572.843
+            ],
+            [
+              1788344781,
+              2510.55
+            ],
+            [
+              1788344841,
+              2570.502
+            ]
+          ]
+        },
+        {
+          "property_id": "53772cb2-60c9-4120-b27c-ebe6207e07d3",
+          "name": "S-BJCW1-TPP1-EN-PV-CPP_LOAD_PC19",
+          "tag_name": "CPP_LOAD_PC19",
+          "description": "TPP-1 Generation Load",
+          "unit": "MW",
+          "variable_type": "Energy",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 10000.0,
+          "sample_count": 60,
+          "first_value": 1607.201,
+          "last_value": 3243.436,
+          "sample_data": [
+            [
+              1788344601,
+              1607.201
+            ],
+            [
+              1788344661,
+              1429.427
+            ],
+            [
+              1788344721,
+              1267.215
+            ],
+            [
+              1788344781,
+              1358.278
+            ],
+            [
+              1788344841,
+              1631.131
+            ]
+          ]
+        },
+        {
+          "property_id": "d67f2e54-a621-4406-8aa7-1e7869dd0518",
+          "name": "S-BJCW1-PP4-TM-PV-644PM1_RUN_TOD",
+          "tag_name": "644PM1_RUN_TOD",
+          "description": "Packer-4 Running Hours",
+          "unit": "hr",
+          "variable_type": "Time",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 3600.0,
+          "sample_count": 60,
+          "first_value": 628.569,
+          "last_value": 1101.014,
+          "sample_data": [
+            [
+              1788344601,
+              628.569
+            ],
+            [
+              1788344661,
+              672.328
+            ],
+            [
+              1788344721,
+              669.591
+            ],
+            [
+              1788344781,
+              742.597
+            ],
+            [
+              1788344841,
+              766.719
+            ]
+          ]
+        },
+        {
+          "property_id": "d095c436-110d-454c-807c-441fffef7059",
+          "name": "S-BJCW1-EMS-1-J-PV-GRIDLOAD",
+          "tag_name": "GRIDLOAD",
+          "description": "",
+          "unit": "MW",
+          "variable_type": "Power",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 1000.0,
+          "sample_count": 60,
+          "first_value": 716.556,
+          "last_value": 547.744,
+          "sample_data": [
+            [
+              1788344601,
+              716.556
+            ],
+            [
+              1788344661,
+              693.211
+            ],
+            [
+              1788344721,
+              708.733
+            ],
+            [
+              1788344781,
+              714.179
+            ],
+            [
+              1788344841,
+              695.588
+            ]
+          ]
+        },
+        {
+          "property_id": "6334782c-9c38-4c30-8955-017cf2bd27d4",
+          "name": "S-BJCW1-PP-TM-PV-641PM1_RUN_TOD",
+          "tag_name": "641PM1_RUN_TOD",
+          "description": "Packer-1 Running Hours",
+          "unit": "hr",
+          "variable_type": "Time",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 3600.0,
+          "sample_count": 60,
+          "first_value": 831.311,
+          "last_value": 1549.705,
+          "sample_data": [
+            [
+              1788344601,
+              831.311
+            ],
+            [
+              1788344661,
+              823.631
+            ],
+            [
+              1788344721,
+              813.331
+            ],
+            [
+              1788344781,
+              882.238
+            ],
+            [
+              1788344841,
+              856.766
+            ]
+          ]
+        },
+        {
+          "property_id": "58d243cb-44f2-405d-873e-d28454965174",
+          "name": "S-BJCW1-PP3-TM-PV-643PM1_RUN_TOD",
+          "tag_name": "643PM1_RUN_TOD",
+          "description": "Packer-3 Running Hours",
+          "unit": "hr",
+          "variable_type": "Time",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 3600.0,
+          "sample_count": 60,
+          "first_value": 810.105,
+          "last_value": 614.005,
+          "sample_data": [
+            [
+              1788344601,
+              810.105
+            ],
+            [
+              1788344661,
+              736.991
+            ],
+            [
+              1788344721,
+              739.893
+            ],
+            [
+              1788344781,
+              774.802
+            ],
+            [
+              1788344841,
+              684.184
+            ]
+          ]
+        },
+        {
+          "property_id": "72aad518-bbc9-4b44-9a38-c4c81ac44658",
+          "name": "S-BJCW1-WH1-EN-PV-WHRS_LOAD",
+          "tag_name": "WHRS_LOAD",
+          "description": "WHSR Generation",
+          "unit": "MW",
+          "variable_type": "Energy",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 10000.0,
+          "sample_count": 60,
+          "first_value": 2448.948,
+          "last_value": 1636.71,
+          "sample_data": [
+            [
+              1788344601,
+              2448.948
+            ],
+            [
+              1788344661,
+              2284.297
+            ],
+            [
+              1788344721,
+              2506.416
+            ],
+            [
+              1788344781,
+              2442.148
+            ],
+            [
+              1788344841,
+              2424.751
+            ]
+          ]
+        },
+        {
+          "property_id": "def23d78-66aa-4fea-838f-4a45aaa00aee",
+          "name": "S-BJCW1-WH1-F-PV-AQC_HP__Stm_Flow_Cmp_Avg",
+          "tag_name": "AQC_HP__Stm_Flow_Cmp_Avg",
+          "description": "AQC HP steam Generation incl PH Steam",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 77.755,
+          "last_value": 183.422,
+          "sample_data": [
+            [
+              1788344601,
+              77.755
+            ],
+            [
+              1788344661,
+              65.753
+            ],
+            [
+              1788344721,
+              64.219
+            ],
+            [
+              1788344781,
+              72.704
+            ],
+            [
+              1788344841,
+              68.33
+            ]
+          ]
+        },
+        {
+          "property_id": "5c1c1857-1532-41fc-96dd-d3eb3c11f58e",
+          "name": "S-BJCW1-WH1-F-PV-PHA_HP_STM_Flow1",
+          "tag_name": "PHA_HP_STM_Flow1",
+          "description": "PH HP steam Generation",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 297.251,
+          "last_value": 355.908,
+          "sample_data": [
+            [
+              1788344601,
+              297.251
+            ],
+            [
+              1788344661,
+              300.655
+            ],
+            [
+              1788344721,
+              307.291
+            ],
+            [
+              1788344781,
+              310.471
+            ],
+            [
+              1788344841,
+              306.823
+            ]
+          ]
+        },
+        {
+          "property_id": "f3aad0d6-29f4-4e65-881f-90da976a2a7e",
+          "name": "S-BJCW1-WH1-F-PV-PHA_LP_STM_Flow1",
+          "tag_name": "PHA_LP_STM_Flow1",
+          "description": "AQC LP Steam Generation",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 204.99,
+          "last_value": 131.784,
+          "sample_data": [
+            [
+              1788344601,
+              204.99
+            ],
+            [
+              1788344661,
+              192.186
+            ],
+            [
+              1788344721,
+              202.265
+            ],
+            [
+              1788344781,
+              188.731
+            ],
+            [
+              1788344841,
+              195.899
+            ]
+          ]
+        },
+        {
+          "property_id": "830383e3-4997-4bdc-9824-6bb4b0b01041",
+          "name": "S-BJCW1-WH1-F-PV-PHB_HP_STM_Flow1",
+          "tag_name": "PHB_HP_STM_Flow1",
+          "description": "PH HP steam Generation",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 202.295,
+          "last_value": 126.554,
+          "sample_data": [
+            [
+              1788344601,
+              202.295
+            ],
+            [
+              1788344661,
+              203.42
+            ],
+            [
+              1788344721,
+              203.784
+            ],
+            [
+              1788344781,
+              194.249
+            ],
+            [
+              1788344841,
+              196.065
+            ]
+          ]
+        },
+        {
+          "property_id": "7209e98f-d5b3-483d-8655-41cde6d59bde",
+          "name": "S-BJCW1-WH1-F-PV-PHB_LP_STM_Flow1",
+          "tag_name": "PHB_LP_STM_Flow1",
+          "description": "PH LP Steam Generation",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 87.691,
+          "last_value": 233.015,
+          "sample_data": [
+            [
+              1788344601,
+              87.691
+            ],
+            [
+              1788344661,
+              78.258
+            ],
+            [
+              1788344721,
+              84.437
+            ],
+            [
+              1788344781,
+              83.725
+            ],
+            [
+              1788344841,
+              95.004
+            ]
+          ]
+        },
+        {
+          "property_id": "694d29b2-6998-4415-bc0e-df37df311d3c",
+          "name": "S-BJCW1-WH1-F-PV-Steam_flow",
+          "tag_name": "Steam_flow",
+          "description": "TG HP Steam Flow",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 337.876,
+          "last_value": 333.047,
+          "sample_data": [
+            [
+              1788344601,
+              337.876
+            ],
+            [
+              1788344661,
+              353.027
+            ],
+            [
+              1788344721,
+              356.866
+            ],
+            [
+              1788344781,
+              347.23
+            ],
+            [
+              1788344841,
+              345.491
+            ]
+          ]
+        },
+        {
+          "property_id": "f493c58d-62cb-44ae-9d0c-3f1ee82ee15e",
+          "name": "S-BJCW1-WH1-F-PV-WHR_STG_130_FT",
+          "tag_name": "WHR_STG_130_FT",
+          "description": "TG LP Steam Flow",
+          "unit": "TPH",
+          "variable_type": "Flow",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 310.387,
+          "last_value": 348.109,
+          "sample_data": [
+            [
+              1788344601,
+              310.387
+            ],
+            [
+              1788344661,
+              309.026
+            ],
+            [
+              1788344721,
+              314.665
+            ],
+            [
+              1788344781,
+              318.453
+            ],
+            [
+              1788344841,
+              296.558
+            ]
+          ]
+        },
+        {
+          "property_id": "26107d3e-3800-44e5-a36d-025fbcfbf164",
+          "name": "S-BJCW1-WH1-J-KPI-T_MW001",
+          "tag_name": "T_MW001",
+          "description": "WHRS Power Generation-MW",
+          "unit": "MW",
+          "variable_type": "Power",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 1000.0,
+          "sample_count": 60,
+          "first_value": 239.491,
+          "last_value": 141.094,
+          "sample_data": [
+            [
+              1788344601,
+              239.491
+            ],
+            [
+              1788344661,
+              271.129
+            ],
+            [
+              1788344721,
+              259.667
+            ],
+            [
+              1788344781,
+              214.993
+            ],
+            [
+              1788344841,
+              220.894
+            ]
+          ]
+        },
+        {
+          "property_id": "4f275e98-ed7b-4569-9609-ca4f15cef35f",
+          "name": "S-BJCW1-WH1-O-PV-WHR_AQC_LP_Comp_flow_008A",
+          "tag_name": "WHR_AQC_LP_Comp_flow_008A",
+          "description": "AQC LP Steam Generation",
+          "unit": "TPH",
+          "variable_type": "Others",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 420.0,
+          "sample_count": 60,
+          "first_value": 83.714,
+          "last_value": 127.947,
+          "sample_data": [
+            [
+              1788344601,
+              83.714
+            ],
+            [
+              1788344661,
+              80.531
+            ],
+            [
+              1788344721,
+              79.522
+            ],
+            [
+              1788344781,
+              74.955
+            ],
+            [
+              1788344841,
+              84.438
+            ]
+          ]
+        },
+        {
+          "property_id": "6d030305-ea5c-446b-8dbf-5a5ba13ed3dc",
+          "name": "S-BJCW1-WH1-O-PV-WHR_STG_TUR_HP",
+          "tag_name": "WHR_STG_TUR_HP",
+          "description": "HP Demand -TG (%)",
+          "unit": "%",
+          "variable_type": "Others",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 100.0,
+          "sample_count": 60,
+          "first_value": 65.463,
+          "last_value": 77.858,
+          "sample_data": [
+            [
+              1788344601,
+              65.463
+            ],
+            [
+              1788344661,
+              67.485
+            ],
+            [
+              1788344721,
+              66.702
+            ],
+            [
+              1788344781,
+              67.144
+            ],
+            [
+              1788344841,
+              66.823
+            ]
+          ]
+        },
+        {
+          "property_id": "99948b8f-7e6f-4e24-9b24-4be25b425ea7",
+          "name": "S-BJCW1-WH1-P-PV-PHA_BLR_DPT",
+          "tag_name": "PHA_BLR_DPT",
+          "description": "DP across Boiler",
+          "unit": "mmWC",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 39.728,
+          "last_value": 96.258,
+          "sample_data": [
+            [
+              1788344601,
+              39.728
+            ],
+            [
+              1788344661,
+              39.031
+            ],
+            [
+              1788344721,
+              39.272
+            ],
+            [
+              1788344781,
+              43.775
+            ],
+            [
+              1788344841,
+              41.335
+            ]
+          ]
+        },
+        {
+          "property_id": "6f2efe62-d75b-46bf-a8b4-b9d6500f0756",
+          "name": "S-BJCW1-WH1-P-PV-PHB_BLR_DPT",
+          "tag_name": "PHB_BLR_DPT",
+          "description": "DP across Boiler",
+          "unit": "mmWC",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 134.693,
+          "last_value": 64.075,
+          "sample_data": [
+            [
+              1788344601,
+              134.693
+            ],
+            [
+              1788344661,
+              137.499
+            ],
+            [
+              1788344721,
+              133.102
+            ],
+            [
+              1788344781,
+              135.337
+            ],
+            [
+              1788344841,
+              130.855
+            ]
+          ]
+        },
+        {
+          "property_id": "4ef69948-acfa-4e21-80ad-590466368a3a",
+          "name": "S-BJCW1-WH1-P-PV-T_PI105A",
+          "tag_name": "T_PI105A",
+          "description": "ACC/ Condensor Performance - Vacuum",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": -3.07,
+          "last_value": 76.603,
+          "sample_data": [
+            [
+              1788344601,
+              -3.07
+            ],
+            [
+              1788344661,
+              -4.338
+            ],
+            [
+              1788344721,
+              -0.713
+            ],
+            [
+              1788344781,
+              2.928
+            ],
+            [
+              1788344841,
+              3.283
+            ]
+          ]
+        },
+        {
+          "property_id": "e7966f29-12d3-4ab8-8aed-cc2a21ea4003",
+          "name": "S-BJCW1-WH1-P-PV-WHR_AQC_001_PT",
+          "tag_name": "WHR_AQC_001_PT",
+          "description": "AQC inlet draft",
+          "unit": "mmWC",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 3.668,
+          "last_value": -11.245,
+          "sample_data": [
+            [
+              1788344601,
+              3.668
+            ],
+            [
+              1788344661,
+              -0.456
+            ],
+            [
+              1788344721,
+              3.504
+            ],
+            [
+              1788344781,
+              0.275
+            ],
+            [
+              1788344841,
+              -2.05
+            ]
+          ]
+        },
+        {
+          "property_id": "dc91d779-e73c-480c-bf3a-fed3e0e15c45",
+          "name": "S-BJCW1-WH1-P-PV-WHR_AQC_005_PT",
+          "tag_name": "WHR_AQC_005_PT",
+          "description": "AQC HP Steam Pressure (MSSV Outlet)",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": -11.858,
+          "last_value": -5.236,
+          "sample_data": [
+            [
+              1788344601,
+              -11.858
+            ],
+            [
+              1788344661,
+              -12.261
+            ],
+            [
+              1788344721,
+              -11.61
+            ],
+            [
+              1788344781,
+              -9.35
+            ],
+            [
+              1788344841,
+              -7.996
+            ]
+          ]
+        },
+        {
+          "property_id": "f9f6cf3b-b7e1-452f-851f-1c9cea871f90",
+          "name": "S-BJCW1-WH1-P-PV-WHR_AQC_011_PT",
+          "tag_name": "WHR_AQC_011_PT",
+          "description": "AQC LP Steam Pressure (MSSV Outlet)",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 157.742,
+          "last_value": 133.072,
+          "sample_data": [
+            [
+              1788344601,
+              157.742
+            ],
+            [
+              1788344661,
+              156.315
+            ],
+            [
+              1788344721,
+              160.527
+            ],
+            [
+              1788344781,
+              152.707
+            ],
+            [
+              1788344841,
+              156.259
+            ]
+          ]
+        },
+        {
+          "property_id": "e46ea408-735c-4a74-8820-88818c82ff7f",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1A_001_PT",
+          "tag_name": "WHR_PH1A_001_PT",
+          "description": "PH Boiler inlet pressure",
+          "unit": "mmWC",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 74.211,
+          "last_value": 130.112,
+          "sample_data": [
+            [
+              1788344601,
+              74.211
+            ],
+            [
+              1788344661,
+              78.7
+            ],
+            [
+              1788344721,
+              78.125
+            ],
+            [
+              1788344781,
+              81.527
+            ],
+            [
+              1788344841,
+              78.139
+            ]
+          ]
+        },
+        {
+          "property_id": "a5be7aa0-fe9e-4ea9-8f93-5af28bdc98b4",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1A_003_PT",
+          "tag_name": "WHR_PH1A_003_PT",
+          "description": "PH Boiler outlet pressure",
+          "unit": "mmWC",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 157.526,
+          "last_value": 107.901,
+          "sample_data": [
+            [
+              1788344601,
+              157.526
+            ],
+            [
+              1788344661,
+              154.865
+            ],
+            [
+              1788344721,
+              158.702
+            ],
+            [
+              1788344781,
+              148.686
+            ],
+            [
+              1788344841,
+              149.578
+            ]
+          ]
+        },
+        {
+          "property_id": "b026741a-4f6b-450c-a06e-56389bad0c18",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1A_008_PT",
+          "tag_name": "WHR_PH1A_008_PT",
+          "description": "PH HP Steam Pressure (MSSV Outlet)",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 163.292,
+          "last_value": 139.505,
+          "sample_data": [
+            [
+              1788344601,
+              163.292
+            ],
+            [
+              1788344661,
+              166.478
+            ],
+            [
+              1788344721,
+              165.786
+            ],
+            [
+              1788344781,
+              156.514
+            ],
+            [
+              1788344841,
+              158.615
+            ]
+          ]
+        },
+        {
+          "property_id": "1eb12abd-2cba-4487-8cf7-b81f1d229429",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1A_012_PT",
+          "tag_name": "WHR_PH1A_012_PT",
+          "description": "AQC LP Steam Pressure (MSSV Outlet)",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 29.104,
+          "last_value": 131.632,
+          "sample_data": [
+            [
+              1788344601,
+              29.104
+            ],
+            [
+              1788344661,
+              28.044
+            ],
+            [
+              1788344721,
+              29.874
+            ],
+            [
+              1788344781,
+              26.421
+            ],
+            [
+              1788344841,
+              30.04
+            ]
+          ]
+        },
+        {
+          "property_id": "2279652e-73db-4ad9-ba87-81a346aaa7d0",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1B_001_PT",
+          "tag_name": "WHR_PH1B_001_PT",
+          "description": "PH Boiler inlet pressure",
+          "unit": "mmWC",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 133.836,
+          "last_value": 57.323,
+          "sample_data": [
+            [
+              1788344601,
+              133.836
+            ],
+            [
+              1788344661,
+              129.473
+            ],
+            [
+              1788344721,
+              127.179
+            ],
+            [
+              1788344781,
+              123.881
+            ],
+            [
+              1788344841,
+              120.558
+            ]
+          ]
+        },
+        {
+          "property_id": "e76ee01f-26ec-42c6-805d-5deeda1ccb3c",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1B_008_PT",
+          "tag_name": "WHR_PH1B_008_PT",
+          "description": "PH HP Steam Pressure (MSSV Outlet)",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": -9.212,
+          "last_value": 29.264,
+          "sample_data": [
+            [
+              1788344601,
+              -9.212
+            ],
+            [
+              1788344661,
+              -17.521
+            ],
+            [
+              1788344721,
+              -4.953
+            ],
+            [
+              1788344781,
+              -2.281
+            ],
+            [
+              1788344841,
+              -6.949
+            ]
+          ]
+        },
+        {
+          "property_id": "67ee77a7-4a74-4826-8c0c-663e2e04f3c5",
+          "name": "S-BJCW1-WH1-P-PV-WHR_PH1B_012_PT",
+          "tag_name": "WHR_PH1B_012_PT",
+          "description": "PH LP Steam Pressure (MSSV Outlet)",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 92.397,
+          "last_value": 46.857,
+          "sample_data": [
+            [
+              1788344601,
+              92.397
+            ],
+            [
+              1788344661,
+              100.355
+            ],
+            [
+              1788344721,
+              99.066
+            ],
+            [
+              1788344781,
+              101.922
+            ],
+            [
+              1788344841,
+              97.226
+            ]
+          ]
+        },
+        {
+          "property_id": "03ad58a8-5683-4845-ba84-b7a05294b862",
+          "name": "S-BJCW1-WH1-P-PV-WHR_STG_110A_PT",
+          "tag_name": "WHR_STG_110A_PT",
+          "description": "TG HP Steam Pressure",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 126.002,
+          "last_value": 58.684,
+          "sample_data": [
+            [
+              1788344601,
+              126.002
+            ],
+            [
+              1788344661,
+              120.808
+            ],
+            [
+              1788344721,
+              122.268
+            ],
+            [
+              1788344781,
+              121.547
+            ],
+            [
+              1788344841,
+              125.248
+            ]
+          ]
+        },
+        {
+          "property_id": "cc80766f-21a0-4461-84c5-7166dce3d9d3",
+          "name": "S-BJCW1-WH1-P-PV-WHR_STG_130A_PT",
+          "tag_name": "WHR_STG_130A_PT",
+          "description": "TG LP Steam Pressure",
+          "unit": "Kg/cm2",
+          "variable_type": "Pressure",
+          "generator": "sine",
+          "min": -50.0,
+          "max": 200.0,
+          "sample_count": 60,
+          "first_value": 159.927,
+          "last_value": 139.78,
+          "sample_data": [
+            [
+              1788344601,
+              159.927
+            ],
+            [
+              1788344661,
+              163.692
+            ],
+            [
+              1788344721,
+              160.429
+            ],
+            [
+              1788344781,
+              158.09
+            ],
+            [
+              1788344841,
+              163.019
+            ]
+          ]
+        },
+        {
+          "property_id": "d4ea7fcf-ad42-4343-aeb7-bcd2f6565009",
+          "name": "S-BJCW1-WH1-S-PV-AQC_BYPASS_ANALOG_FB",
+          "tag_name": "AQC_BYPASS_ANALOG_FB",
+          "description": "Vent damper (AQC Bypass) opening-4F",
+          "unit": "%",
+          "variable_type": "Position",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 100.0,
+          "sample_count": 60,
+          "first_value": 81.097,
+          "last_value": 85.987,
+          "sample_data": [
+            [
+              1788344601,
+              81.097
+            ],
+            [
+              1788344661,
+              80.153
+            ],
+            [
+              1788344721,
+              78.805
+            ],
+            [
+              1788344781,
+              79.006
+            ],
+            [
+              1788344841,
+              81.29
+            ]
+          ]
+        },
+        {
+          "property_id": "7c7a1ebd-1194-42eb-b848-652c565a47a3",
+          "name": "S-BJCW1-WH1-S-PV-WHR_PH1A_MLD_M_001_ZT",
+          "tag_name": "WHR_PH1A_MLD_M_001_ZT",
+          "description": "PH Bypass damper opening",
+          "unit": "%",
+          "variable_type": "Position",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 100.0,
+          "sample_count": 60,
+          "first_value": 16.501,
+          "last_value": 20.59,
+          "sample_data": [
+            [
+              1788344601,
+              16.501
+            ],
+            [
+              1788344661,
+              13.265
+            ],
+            [
+              1788344721,
+              18.384
+            ],
+            [
+              1788344781,
+              16.025
+            ],
+            [
+              1788344841,
+              15.212
+            ]
+          ]
+        },
+        {
+          "property_id": "f458932e-7497-45a7-b3f0-0680f76f8030",
+          "name": "S-BJCW1-WH1-S-PV-WHR_PH1B_MLD_M_001_ZT",
+          "tag_name": "WHR_PH1B_MLD_M_001_ZT",
+          "description": "PH Bypass damper opening",
+          "unit": "%",
+          "variable_type": "Position",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 100.0,
+          "sample_count": 60,
+          "first_value": 23.272,
+          "last_value": 66.511,
+          "sample_data": [
+            [
+              1788344601,
+              23.272
+            ],
+            [
+              1788344661,
+              23.132
+            ],
+            [
+              1788344721,
+              22.445
+            ],
+            [
+              1788344781,
+              22.073
+            ],
+            [
+              1788344841,
+              26.868
+            ]
+          ]
+        },
+        {
+          "property_id": "ffe7c6df-03f2-4053-805b-32726a54ab20",
+          "name": "S-BJCW1-WH1-T-PV-AQC_INLET_AVG",
+          "tag_name": "AQC_INLET_AVG",
+          "description": "AQC Boiler Inlet Flue Gas Temp - Mid tap",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1057.72,
+          "last_value": 1273.879,
+          "sample_data": [
+            [
+              1788344601,
+              1057.72
+            ],
+            [
+              1788344661,
+              1060.314
+            ],
+            [
+              1788344721,
+              1055.602
+            ],
+            [
+              1788344781,
+              1068.501
+            ],
+            [
+              1788344841,
+              1079.427
+            ]
+          ]
+        },
+        {
+          "property_id": "cd263200-942f-4a9a-b9b7-11c51b357c06",
+          "name": "S-BJCW1-WH1-T-PV-AQC_MID_AVG",
+          "tag_name": "AQC_MID_AVG",
+          "description": "Mid tap temperature at Cooler end",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1246.628,
+          "last_value": 1147.724,
+          "sample_data": [
+            [
+              1788344601,
+              1246.628
+            ],
+            [
+              1788344661,
+              1251.467
+            ],
+            [
+              1788344721,
+              1179.922
+            ],
+            [
+              1788344781,
+              1269.585
+            ],
+            [
+              1788344841,
+              1213.24
+            ]
+          ]
+        },
+        {
+          "property_id": "4b561cfb-b8e3-4b79-b3aa-cec94aaf1665",
+          "name": "S-BJCW1-WH1-T-PV-T_TI105A",
+          "tag_name": "T_TI105A",
+          "description": "Turbine Exhaust Steam Temperature (TG )",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 765.325,
+          "last_value": 461.472,
+          "sample_data": [
+            [
+              1788344601,
+              765.325
+            ],
+            [
+              1788344661,
+              755.453
+            ],
+            [
+              1788344721,
+              767.183
+            ],
+            [
+              1788344781,
+              734.495
+            ],
+            [
+              1788344841,
+              747.574
+            ]
+          ]
+        },
+        {
+          "property_id": "70c860cb-d171-4102-83a3-58b257a1ec04",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_003_TT",
+          "tag_name": "WHR_AQC_003_TT",
+          "description": "Vent damper exit gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1297.87,
+          "last_value": 1098.772,
+          "sample_data": [
+            [
+              1788344601,
+              1297.87
+            ],
+            [
+              1788344661,
+              1254.977
+            ],
+            [
+              1788344721,
+              1278.657
+            ],
+            [
+              1788344781,
+              1270.58
+            ],
+            [
+              1788344841,
+              1254.073
+            ]
+          ]
+        },
+        {
+          "property_id": "0ddd8af9-dd96-4ba1-abad-722821422605",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_005_TT",
+          "tag_name": "WHR_AQC_005_TT",
+          "description": "AQC Boiler Gas temperature below SH - Tap-1",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 512.832,
+          "last_value": 738.431,
+          "sample_data": [
+            [
+              1788344601,
+              512.832
+            ],
+            [
+              1788344661,
+              547.784
+            ],
+            [
+              1788344721,
+              496.37
+            ],
+            [
+              1788344781,
+              563.74
+            ],
+            [
+              1788344841,
+              565.803
+            ]
+          ]
+        },
+        {
+          "property_id": "3639bddd-269c-4afa-b518-b80c5e4c1aa6",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_006_TT",
+          "tag_name": "WHR_AQC_006_TT",
+          "description": "ESP Gas Exit temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 354.421,
+          "last_value": 771.571,
+          "sample_data": [
+            [
+              1788344601,
+              354.421
+            ],
+            [
+              1788344661,
+              373.471
+            ],
+            [
+              1788344721,
+              396.067
+            ],
+            [
+              1788344781,
+              390.545
+            ],
+            [
+              1788344841,
+              398.172
+            ]
+          ]
+        },
+        {
+          "property_id": "21f53bdf-ebb5-46e7-acc3-380da40841e8",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_009_TT",
+          "tag_name": "WHR_AQC_009_TT",
+          "description": "Evaporator Inlet Gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1206.571,
+          "last_value": 908.906,
+          "sample_data": [
+            [
+              1788344601,
+              1206.571
+            ],
+            [
+              1788344661,
+              1202.08
+            ],
+            [
+              1788344721,
+              1161.198
+            ],
+            [
+              1788344781,
+              1194.496
+            ],
+            [
+              1788344841,
+              1204.132
+            ]
+          ]
+        },
+        {
+          "property_id": "6735a95f-291f-475f-af17-c100a41e5164",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_016A_TT",
+          "tag_name": "WHR_AQC_016A_TT",
+          "description": "AQC HP Steam temperature (MSSV Outlet)",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1329.867,
+          "last_value": 1133.051,
+          "sample_data": [
+            [
+              1788344601,
+              1329.867
+            ],
+            [
+              1788344661,
+              1292.219
+            ],
+            [
+              1788344721,
+              1287.433
+            ],
+            [
+              1788344781,
+              1275.287
+            ],
+            [
+              1788344841,
+              1275.967
+            ]
+          ]
+        },
+        {
+          "property_id": "70946299-ea7c-4bd9-bd80-35527ddf1c07",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_017A_TT",
+          "tag_name": "WHR_AQC_017A_TT",
+          "description": "Attemperation -1 Outlet Steam temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1197.496,
+          "last_value": 1267.036,
+          "sample_data": [
+            [
+              1788344601,
+              1197.496
+            ],
+            [
+              1788344661,
+              1182.707
+            ],
+            [
+              1788344721,
+              1208.932
+            ],
+            [
+              1788344781,
+              1251.719
+            ],
+            [
+              1788344841,
+              1210.512
+            ]
+          ]
+        },
+        {
+          "property_id": "a3a4b519-997e-4af3-9849-6c980ed955ae",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC_023A_TT",
+          "tag_name": "WHR_AQC_023A_TT",
+          "description": "AQC LP Steam temperature (MSSV Outlet)",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 424.844,
+          "last_value": 247.789,
+          "sample_data": [
+            [
+              1788344601,
+              424.844
+            ],
+            [
+              1788344661,
+              435.972
+            ],
+            [
+              1788344721,
+              433.133
+            ],
+            [
+              1788344781,
+              416.847
+            ],
+            [
+              1788344841,
+              443.144
+            ]
+          ]
+        },
+        {
+          "property_id": "2d8b02e9-17da-4b78-a4af-b284e08ac73b",
+          "name": "S-BJCW1-WH1-T-PV-WHR_AQC__ESP_01_TT",
+          "tag_name": "WHR_AQC__ESP_01_TT",
+          "description": "ESP gas inlet temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 408.827,
+          "last_value": 667.505,
+          "sample_data": [
+            [
+              1788344601,
+              408.827
+            ],
+            [
+              1788344661,
+              400.372
+            ],
+            [
+              1788344721,
+              399.064
+            ],
+            [
+              1788344781,
+              452.903
+            ],
+            [
+              1788344841,
+              403.735
+            ]
+          ]
+        },
+        {
+          "property_id": "88f8dcbd-f5de-4b40-ad14-d2cf0ba6c22a",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1A_001_TT",
+          "tag_name": "WHR_PH1A_001_TT",
+          "description": "PH Boiler inlet Gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1142.806,
+          "last_value": 1280.369,
+          "sample_data": [
+            [
+              1788344601,
+              1142.806
+            ],
+            [
+              1788344661,
+              1154.928
+            ],
+            [
+              1788344721,
+              1175.689
+            ],
+            [
+              1788344781,
+              1157.112
+            ],
+            [
+              1788344841,
+              1148.067
+            ]
+          ]
+        },
+        {
+          "property_id": "da16ae38-f1a6-4537-9051-e165181b0291",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1A_003_TT",
+          "tag_name": "WHR_PH1A_003_TT",
+          "description": "Evaporator inlet gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1266.828,
+          "last_value": 974.728,
+          "sample_data": [
+            [
+              1788344601,
+              1266.828
+            ],
+            [
+              1788344661,
+              1276.377
+            ],
+            [
+              1788344721,
+              1255.637
+            ],
+            [
+              1788344781,
+              1273.794
+            ],
+            [
+              1788344841,
+              1257.31
+            ]
+          ]
+        },
+        {
+          "property_id": "3cfb34b2-507e-490d-895f-5c24e6c67bb6",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1A_008_TT",
+          "tag_name": "WHR_PH1A_008_TT",
+          "description": "PH Boiler Outlet Gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 611.052,
+          "last_value": 1079.669,
+          "sample_data": [
+            [
+              1788344601,
+              611.052
+            ],
+            [
+              1788344661,
+              606.761
+            ],
+            [
+              1788344721,
+              664.949
+            ],
+            [
+              1788344781,
+              621.582
+            ],
+            [
+              1788344841,
+              602.784
+            ]
+          ]
+        },
+        {
+          "property_id": "130a63f3-0a73-40b4-9032-10b1da0f6cf0",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1A_011A_TT",
+          "tag_name": "WHR_PH1A_011A_TT",
+          "description": "PH HP Steam temperature (MSSV Outlet)",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 638.732,
+          "last_value": 1029.153,
+          "sample_data": [
+            [
+              1788344601,
+              638.732
+            ],
+            [
+              1788344661,
+              664.32
+            ],
+            [
+              1788344721,
+              640.892
+            ],
+            [
+              1788344781,
+              652.005
+            ],
+            [
+              1788344841,
+              653.326
+            ]
+          ]
+        },
+        {
+          "property_id": "db8f51b0-840d-4d06-9a1b-e35bc5fc04f7",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1A_014A_TT",
+          "tag_name": "WHR_PH1A_014A_TT",
+          "description": "AQC LP Steam temperature (MSSV Outlet)",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1040.193,
+          "last_value": 1221.189,
+          "sample_data": [
+            [
+              1788344601,
+              1040.193
+            ],
+            [
+              1788344661,
+              1094.777
+            ],
+            [
+              1788344721,
+              1050.202
+            ],
+            [
+              1788344781,
+              1063.936
+            ],
+            [
+              1788344841,
+              1076.973
+            ]
+          ]
+        },
+        {
+          "property_id": "d356e3e0-43de-44ac-8244-785d9e8c2e42",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1B_001_TT",
+          "tag_name": "WHR_PH1B_001_TT",
+          "description": "PH Boiler inlet Gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 388.81,
+          "last_value": 270.867,
+          "sample_data": [
+            [
+              1788344601,
+              388.81
+            ],
+            [
+              1788344661,
+              359.506
+            ],
+            [
+              1788344721,
+              357.3
+            ],
+            [
+              1788344781,
+              331.475
+            ],
+            [
+              1788344841,
+              344.452
+            ]
+          ]
+        },
+        {
+          "property_id": "6cf86247-6e88-4826-bc05-a4085dc5f80d",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1B_003_TT",
+          "tag_name": "WHR_PH1B_003_TT",
+          "description": "Evaporator inlet gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1241.972,
+          "last_value": 1021.533,
+          "sample_data": [
+            [
+              1788344601,
+              1241.972
+            ],
+            [
+              1788344661,
+              1281.627
+            ],
+            [
+              1788344721,
+              1296.071
+            ],
+            [
+              1788344781,
+              1274.301
+            ],
+            [
+              1788344841,
+              1322.403
+            ]
+          ]
+        },
+        {
+          "property_id": "8e7a9422-862c-4e1d-a10f-366df537d4bc",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1B_008_TT",
+          "tag_name": "WHR_PH1B_008_TT",
+          "description": "PH Boiler Outlet Gas temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 447.416,
+          "last_value": 274.504,
+          "sample_data": [
+            [
+              1788344601,
+              447.416
+            ],
+            [
+              1788344661,
+              445.117
+            ],
+            [
+              1788344721,
+              456.705
+            ],
+            [
+              1788344781,
+              435.514
+            ],
+            [
+              1788344841,
+              433.697
+            ]
+          ]
+        },
+        {
+          "property_id": "b777638d-b689-4a3c-8b91-08eee9a0e0be",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1B_011A_TT",
+          "tag_name": "WHR_PH1B_011A_TT",
+          "description": "PH HP Steam temperature (MSSV Outlet)",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1045.793,
+          "last_value": 763.184,
+          "sample_data": [
+            [
+              1788344601,
+              1045.793
+            ],
+            [
+              1788344661,
+              988.054
+            ],
+            [
+              1788344721,
+              1025.527
+            ],
+            [
+              1788344781,
+              1057.523
+            ],
+            [
+              1788344841,
+              1038.898
+            ]
+          ]
+        },
+        {
+          "property_id": "68fb2051-02b6-4297-a930-fadb3b6ef517",
+          "name": "S-BJCW1-WH1-T-PV-WHR_PH1B_014A_TT",
+          "tag_name": "WHR_PH1B_014A_TT",
+          "description": "PH LP Steam temperature (MSSV Outlet)",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 230.797,
+          "last_value": 473.308,
+          "sample_data": [
+            [
+              1788344601,
+              230.797
+            ],
+            [
+              1788344661,
+              311.065
+            ],
+            [
+              1788344721,
+              285.388
+            ],
+            [
+              1788344781,
+              270.406
+            ],
+            [
+              1788344841,
+              320.443
+            ]
+          ]
+        },
+        {
+          "property_id": "08ba7e6f-a39c-4425-b883-0943f25c7021",
+          "name": "S-BJCW1-WH1-T-PV-WHR_STG_110A_TT",
+          "tag_name": "WHR_STG_110A_TT",
+          "description": "TG HP Steam temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 732.246,
+          "last_value": 470.282,
+          "sample_data": [
+            [
+              1788344601,
+              732.246
+            ],
+            [
+              1788344661,
+              726.514
+            ],
+            [
+              1788344721,
+              742.118
+            ],
+            [
+              1788344781,
+              696.152
+            ],
+            [
+              1788344841,
+              770.409
+            ]
+          ]
+        },
+        {
+          "property_id": "49e171a2-28ba-4904-a31c-c1f4dcd3096f",
+          "name": "S-BJCW1-WH1-T-PV-WHR_STG_130A_TT",
+          "tag_name": "WHR_STG_130A_TT",
+          "description": "TG LP Steam temperature",
+          "unit": "DegC",
+          "variable_type": "Temperature",
+          "generator": "sine",
+          "min": 50.0,
+          "max": 1500.0,
+          "sample_count": 60,
+          "first_value": 1297.615,
+          "last_value": 884.935,
+          "sample_data": [
+            [
+              1788344601,
+              1297.615
+            ],
+            [
+              1788344661,
+              1264.582
+            ],
+            [
+              1788344721,
+              1305.306
+            ],
+            [
+              1788344781,
+              1271.804
+            ],
+            [
+              1788344841,
+              1265.025
+            ]
+          ]
+        },
+        {
+          "property_id": "8a913384-ab79-4f28-8f8e-377c27c2e6fa",
+          "name": "S-BJCW1-PP2-TM-PV-642PM1_RUN_TOD",
+          "tag_name": "642PM1_RUN_TOD",
+          "description": "Packer-2 Running Hours",
+          "unit": "hr",
+          "variable_type": "Time",
+          "generator": "sine",
+          "min": 0.0,
+          "max": 3600.0,
+          "sample_count": 60,
+          "first_value": 2719.869,
+          "last_value": 1507.821,
+          "sample_data": [
+            [
+              1788344601,
+              2719.869
+            ],
+            [
+              1788344661,
+              2660.827
+            ],
+            [
+              1788344721,
+              2631.795
+            ],
+            [
+              1788344781,
+              2739.2
+            ],
+            [
+              1788344841,
+              2596.855
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_assets": 1,
+    "total_properties": 61,
+    "total_data_points": 3660
+  }
+}
